@@ -12,7 +12,7 @@ One-to-many server & client chat system using multi-threading.
 
 `./build/chatServer/chatServer` to run Server,
 
-`./build/chatClient/chatClient` to run Client.
+`telnet {host} {port}` to run Client. (currently hard set to `localhost 1337`)
 
 Port updates from within source file.
 
