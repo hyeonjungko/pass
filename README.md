@@ -1,5 +1,6 @@
-# Text Chat 
-One-to-many server & client chat system using multi-threading.
+# Pass
+Currently a one-to-many server & client chat system using multi-threading.
+Plans to expand on functionality.
 
 
 ## Implemented Features
