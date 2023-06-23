@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED On)
 set(CMAKE_CXX_EXTENSIONS Off)
 
-find_package(Boost 1.81.0 REQUIRED serialization)
+find_package(Boost 1.71.0 REQUIRED serialization)
 
 file(GLOB_RECURSE SOURCES src/*.cpp)
 add_library(${PROJECT_NAME} ${SOURCES})
