@@ -25,8 +25,8 @@ jobs:
           sudo apt-get update
           sudo apt-get install libboost-dev
 
-      - name: chek BOOST_ROOT environment variable
-        run: echo $BOOST_ROOT
+      - name: Setup Boost environment variable
+        run: echo "::set-env name=BOOST_ROOT::$BOOST_ROOT_1_74_0"
 
       - name: Configure CMake
         # Configure CMake in a 'build' subdirectory. `CMAKE_BUILD_TYPE` is only required if you are using a single-configuration generator such as make.
